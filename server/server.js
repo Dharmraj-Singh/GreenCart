@@ -19,7 +19,8 @@ await connectCloudinary();
 
 // Allow multiple origins
 const allowedOrigins = [
-  'http://localhost:5173' // Add your production domain here
+  'http://localhost:5173',
+  'https://greencart-frontend-txt4.onrender.com'
 ];
 // Middleware Configuration
 app.use(express.json());
